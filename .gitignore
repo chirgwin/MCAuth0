@@ -25,3 +25,15 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+bower_components
+# Usually, you shouldn't version control `platforms/` and `plugins/`. They are
+# build artefacts which change from machine to machine and over time.
+# If you are manually making edits in these folders, proceed with caution.
+/platforms/
+/plugins/
+
+# Other cca artefacts.
+/.cordova/
+/cca
+/cca.cmd
